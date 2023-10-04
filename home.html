@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Videojuegos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .carousel {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .carousel img {
+            width: 100%;
+            height: auto;
+            max-width: 300px; /* Establece un máximo de 300px para el ancho de las imágenes */
+        }
+
+        .catalog {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .catalog-item {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        .cart {
+            text-align: center;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Tienda de Videojuegos</h1>
+    </header>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#videojuegos">Videojuegos</a>
+        <a href="#consolas">Consolas</a>
+        <a href="#accesorios">Accesorios</a>
+        <a href="#carrito">Carrito</a>
+    </nav>
+
+    <section id="videojuegos" class="catalog">
+        <h2>Catálogo de Videojuegos</h2>
+        <div class="carousel">
+            <img src="https://cloudfront-eu-central-1.images.arcpublishing.com/prisaradiolos40/XVRM4ZSAIRIFVOQ5U5EFOYJ6ZQ.jpg" alt="Videojuego 1">
+            <img src="https://cloudfront-eu-central-1.images.arcpublishing.com/prisaradiolos40/XVRM4ZSAIRIFVOQ5U5EFOYJ6ZQ.jpg" alt="Videojuego 2">
+            <img src="https://cloudfront-eu-central-1.images.arcpublishing.com/prisaradiolos40/XVRM4ZSAIRIFVOQ5U5EFOYJ6ZQ.jpg" alt="Videojuego 3">
+            <!-- Agrega más imágenes de videojuegos según sea necesario -->
+        </div>
+    </section>
+
+    <section id="consolas" class="catalog">
+        <h2>Catálogo de Consolas</h2>
+        <div class="carousel">
+            <img src="https://walmartgt.vtexassets.com/arquivos/ids/304671/Consola-Sony-Ps5-Horizon-Forbidden-West-1-52365.jpg?v=638001600034170000" alt="Consola 1">
+            <img src="https://walmartgt.vtexassets.com/arquivos/ids/304671/Consola-Sony-Ps5-Horizon-Forbidden-West-1-52365.jpg?v=638001600034170000" alt="Consola 2">
+            <img src="https://walmartgt.vtexassets.com/arquivos/ids/304671/Consola-Sony-Ps5-Horizon-Forbidden-West-1-52365.jpg?v=638001600034170000" alt="Consola 3">
+            <!-- Agrega más imágenes de consolas según sea necesario -->
+        </div>
+    </section>
+
+    <section id="accesorios" class="catalog">
+        <h2>Catálogo de Accesorios para PC</h2>
+        <div class="carousel">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_798284-MLV51702184295_092022-W.jpg" alt="Accesorio 1">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_798284-MLV51702184295_092022-W.jpg" alt="Accesorio 2">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_798284-MLV51702184295_092022-W.jpg" alt="Accesorio 3">
+            <!-- Agrega más imágenes de accesorios según sea necesario -->
+        </div>
+    </section>
+
+    <section id="carrito" class="cart">
+        <h2>Carrito de Compras</h2>
+        <!-- Aquí se mostrarán los elementos añadidos al carrito de compras -->
+    </section>
+
+    <script>
+        // Aquí puedes agregar funciones JavaScript para gestionar el carrito de compras
+    </script>
+
+</body>
+
+</html>
